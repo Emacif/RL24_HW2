@@ -11,7 +11,7 @@ The **NewRelease** branch introduces a more readable and clearer version of the 
 ### 1. Clone the Repository
 Download the repository from GitHub:
 ```bash
-git clone -b REV_2 https://github.com/Emacif/RL24_HW2.git
+git clone -b REV_2 https://github.com/Emacif/RL24_HW2.git .
 ```
 
 ### 2. Configure and Build the Workspace
@@ -20,8 +20,6 @@ To configure and build the workspace:
 colcon build
 source install/setup.bash
 ```
-
-**Note**: The repository download includes extra files. Manually remove unnecessary files and move the required ones into the `src` folder.
 
 ---
 
